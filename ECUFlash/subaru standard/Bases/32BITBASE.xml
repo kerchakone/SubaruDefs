@@ -7325,5 +7325,36 @@
 	<table name="(U0422) CAN INVALID DATA RECEIVED FROM BIU" category="Diagnostic Trouble Codes" type="1D" scaling="(U0422)CANINVALIDDATARECEIVEDFROMBIU">
 		<description>CAN INVALID DATA RECEIVED FROM BIU. Change to disabled to deactivate. Off-road use only.</description>
 	</table>
+<table name="Shift Light Flash Speed" category="Shift Light" type="2D" level="2" scaling="celflashcounter">
+		<description>Determines Shift Light Cel flash speed, lower is faster</description>
+		<table type="Static Y Axis" elements="1">
+			<data>Shift Light Flash Speed</data>
+		</table>
+	</table>
 
+
+
+<table name="Shift Light Flash Count" category="Shift Light" type="2D" level="2" scaling="celflashcounter">
+		<description>Number of flashes For CEL to Flash for Shift Light</description>
+		<table type="Static Y Axis" elements="1">
+			<data>Shift Light Flash Count</data>
+		</table>
+	</table>
+
+
+
+<table name="Shift Light RPM Settings" category="Shift Light" type="2D" level="2" scaling="Engine Speed (RPM)">
+		<description>Shift Light RPM Settings Per Gear.</description>
+		<table type="Static Y Axis" elements="6">
+			<data>1st</data>
+			<data>2nd</data>
+			<data>3rd</data>
+			<data>4th</data>
+			<data>5th</data>
+			<data>6th</data>
+		</table>
+	</table>
+
+<table name="Shift Light Mode Toggle" category="Shift Light">
+		<description>On/Off Switch for Shift Light illumination.</description>
 </rom>
