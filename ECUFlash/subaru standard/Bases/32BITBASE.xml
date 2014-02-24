@@ -7341,9 +7341,18 @@
 		</table>
 	</table>
 
+<table name="Shift Light RPM Settings 5 Speed" category="Shift Light" type="2D" level="2" scaling="Engine Speed (RPM)">
+		<description>Shift Light RPM Settings Per Gear.</description>
+		<table type="Static Y Axis" elements="5">
+			<data>1st</data>
+			<data>2nd</data>
+			<data>3rd</data>
+			<data>4th</data>
+			<data>5th</data>
+		</table>
+	</table>
 
-
-<table name="Shift Light RPM Settings" category="Shift Light" type="2D" level="2" scaling="Engine Speed (RPM)">
+<table name="Shift Light RPM Settings 6 Speed" category="Shift Light" type="2D" level="2" scaling="Engine Speed (RPM)">
 		<description>Shift Light RPM Settings Per Gear.</description>
 		<table type="Static Y Axis" elements="6">
 			<data>1st</data>
